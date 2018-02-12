@@ -1,0 +1,24 @@
+
+{% extends "base.html" %}
+
+{% block main %}
+<div class="bi">
+
+	<img id="circle" src="{{ url_for('static', filename='bball.jpg') }}">
+
+	<h1> {{name}} </h1>
+	<h4> @justbatch </h4>
+	<h4> Kingston, Jamaica </h4>
+	<h4> {{ date }} </h4>
+</div>
+
+
+<div class="bio">
+	<p class="biology"> I am a dedicated individually who percieves to excel in all areas of my academic life. My goal now is to do extreme web development and set a standard for myself and others in the field. I am not a expert at programming but the unique thing about me, is the effort I make to become a good programmer. Where there is a will there is a way, never stop trying to be the best you can be. </p>
+
+	<p class="num"> 200 40000 34856 </p> 
+	<p class="content"> Post Following Followers </p>
+
+	<button id="follow" type="submit"> Follow </button>
+</div>
+{% endblock %}
